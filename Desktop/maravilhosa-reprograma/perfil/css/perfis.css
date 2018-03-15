@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1%;
+    list-style: none;
+    background-color: #63458a;
+    
+}
+
+nav img{
+    margin: 0;
+    width: 45%;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 85%;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li{
+    margin-left: 60px;
+}
+
+header{
+    min-height: 50vh;
+    background-image: url(../img/bg-banner-escuro.png);
+    background-repeat: no-repeat;
+    background-color: #63458a; 
+    background-size: cover; 
+    display: flex;  
+    align-items: flex-end;
+    text-align: left;
+}
+
+header h1{
+    display: flex;
+    font-size: 110px;
+    color: white;
+    margin-left: 110px;
+    display: flex;
+    align-items: flex-end; 
+    font-weight: bold;
+}
+
+.homenageadas h2{
+    text-align: center;
+    color: #63458a;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.mulheres-homenageadas{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.imagem-mulheres p{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: #63458a;
+    font-weight: bold;
+}
+
+.imagem-mulheres {
+    margin-left: 300px;
+    margin-bottom: 35px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.imagem-mulheres a{
+    text-decoration: none;
+}
+
+.lista-final ul li{
+    list-style-type: none;
+    color: white;
+    font-size: 13px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #333333;
+}
+
+.img-lista img {
+    margin: 0;
+    width: 35%;
+}
+
+.img-lista{
+    text-align: center;
+    color: white;
+    width: 45%;
+    margin: 0 auto;
+}
+
+.botao{
+    margin: 7px 0 16px 0;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.face img{
+    width: 11%;
+    max-height: 43px;
+}
+
+.face{
+    display: flex;
+    color: white;
+    font-size: 13px;
+}
