@@ -1,0 +1,14 @@
+.curiosidades-titulo {
+    text-align: center;
+    font-size: 25px;
+    background-color:#674582;
+    padding: 10px 0;
+    color: white;
+}
+
+.curiosidades-cards {
+    display: flex;
+    padding: 30px 15px;
+    justify-content: center;
+    text-align: center;
+}

@@ -1,0 +1,14 @@
+.materias-titulo {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0;
+    background-color:#674582;
+}
+
+.materias-cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 0;
+    border-radius: 10px;
+}

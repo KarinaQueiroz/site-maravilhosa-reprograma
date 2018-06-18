@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 30px;
+    background-color:#9e77be;
+}
+
+.navbar-logo {
+    height: 30px;
+}
+
+.navbar-logo img {
+    height: 100%;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.navbar-links li {
+    padding: 10px 20px;
+}
+
+.navbar-links a {
+    color: ghostwhite;
+    font-size: 20px;
+    text-decoration: none;
+}
